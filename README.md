@@ -38,9 +38,9 @@ roswtf will detect that the two nodes should be connected but aren't
 
 #### Now, do any of the following and theproblem will disappear:
 - Redo the experiment but change node name (in main.cpp ros::init()) to any
-    other string that is is longer or shorter than 23 in length
+    other string that is longer or shorter
 - Redo the experiment but change the topic name in (main.cpp)
-    to any other string that is longer or shorter than 35 in lenght. Remember 
-    to update the rostopic pub to match
+    to any other string that is longer or shorter. Remember to update the
+    rostopic pub to match
 - Redo the experiment but change the msg name (use the other msg included
-    in this sample). Remember to update the rostopic pub to match.
+    in this pkg). Remember to update the rostopic pub to match.
